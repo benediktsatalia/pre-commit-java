@@ -18,4 +18,5 @@ fi
 files="${*:idx}"
 
 # shellcheck disable=SC2086
+echo "java -jar /opt/checkstyle.jar $cs_args $files"
 java -jar /opt/checkstyle.jar $cs_args $files
